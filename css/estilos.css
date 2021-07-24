@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Spartan', sans-serif;
+    
+}
+
+/* MIS ESTILOS */
+body{
+    background-color: black;
+}
+
+
+    /* MENÚ DE NAVEGACIÓN */
+    .logoTamaño{
+        height: 100px;
+        width: 350px;
+    }
+
+    .cuentaFlex{
+        width: 45px;
+        padding-left: 15px;
+    }
+
+    /* SECCIÓN CARRUSEL */
+    .imgTamaño{
+        height: 600px;
+        margin-top: 50px;
+    }
+
+    /*FOOTER*/
+    footer{
+        text-align: center;
+
+        padding: 20px;
+        margin-top: 100px;    
+    }
+
+    footer div a{
+        text-decoration: none;
+        color: rgb(226, 115, 160);
+    }
+
+    footer div p{
+        font-size: 13px;
+
+        padding-top: 30px;
+    }
+
+    footer img{
+        width: 120px;    
+        padding: 5px 30px;
+    }
+
+    .animacionContacto:hover{
+        animation: swing;
+        animation-duration: 1s;
+    }
+
+
+
+/* PERSONALIZACIÓN DE BOOTSTRAP */
+
+    /* MENÚ DE NAVEGACIÓN */
+    .bg-dark {
+        background-color: transparent!important;
+    }
+
+    .navbar-collapse {
+        justify-content: flex-end;
+    }
+    
+    .navbar-dark .navbar-nav .nav-link {
+        color: rgb(114, 110, 110);
+    }
+
+    .navbar-dark .navbar-nav .nav-link:hover {
+        color: rgb(226, 115, 160);
+    }
+
+    .nav-link{
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    /* FOOTER */
+    a:hover {
+        color: rgb(226, 115, 160);
+    }
+    
+
+@media (min-width: 576px){
+    .imgTamaño{
+        height: 400px;
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 992px){
+    .imgTamaño{
+        height: 600px;
+        margin-top: 50px;
+    }
+}
+
+
+
